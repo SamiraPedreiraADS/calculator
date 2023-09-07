@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+ int soma, sub, oper, mult, div, num1, num2;
+  
+  
+  printf ("Escolha um número: ");
+  scanf("%d", &num1);
+
+  printf ("Escolha um outro número: ");
+  scanf("%d", &num2);
+
+
+  switch (oper) {
+    case 1 : printf("Soma: %d", num1 + num2);
+  
+   case 2 : printf("\nMultiplicação: %d", num1 * num2);
+  
+   case 3 : printf("\nDivisão: %d", num1 / num2);
+
+   case 4 : printf("\nSubtração: %d", num1 - num2);
+  }
+}
